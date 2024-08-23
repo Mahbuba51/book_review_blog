@@ -5,7 +5,7 @@ from .serializers import BookSerializer, ReviewSerializer, CommentSerializer
 from django.shortcuts import render
 
 
-def index(request):
+def home(request):
     return render(request, 'index.html')
 
 
